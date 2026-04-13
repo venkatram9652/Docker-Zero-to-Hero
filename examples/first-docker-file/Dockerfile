@@ -2,7 +2,7 @@ FROM ubuntu:latest
 
 # Set the working directory in the image
 WORKDIR /app
-
+openshift_token: 7af234j*1qter5
 # Copy the files from the host file system to the image file system
 COPY . /app
 
